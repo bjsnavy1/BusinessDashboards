@@ -1,0 +1,95 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BootstrapSample.master.cs"
+  Inherits="BootstrapNavigation.MasterPagesSamples.BootstrapSample" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <title>Navigation Samples</title>
+
+  <!-- Use Unicode character encoding -->
+  <meta charset="utf-8">
+  <!-- Tell IE to display content in highest HTML 5 mode available -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Tell mobile browsers to use the device width when rendering -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="../css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css">
+  <!-- Your Custom Styles -->
+  <link href="../css/Styles.css" media="all" rel="stylesheet" type="text/css">
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="../js/jquery-1.11.0.min.js"></script>
+
+  <!-- Normal Bootstrap plugins -->
+  <script src="../js/bootstrap.min.js"></script>
+
+  <!-- Styles just for the master page -->
+  <style type="text/css">
+    body {
+      background-color: #EDEDED;
+    }
+
+    .mainArea {
+      margin-top: 5em;
+    }
+  </style>
+  <script type="text/javascript">
+    function getPageName(url) {
+      var index = url.lastIndexOf("/") + 1;
+      var filename = url.substr(index);
+      return filename;
+    }
+
+    $(document).ready(function () {
+      // Set the 'active' class on current menu item's <li>
+      $("a[href='" + getPageName(window.location.pathname) + "']").parent().addClass("active");
+    });
+  </script>
+  <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+  </asp:ContentPlaceHolder>
+</head>
+<body>
+  <!-- ********************************** -->
+  <!-- Header Navigation Area -->
+  <!-- ********************************** -->
+  <nav class="nav navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse"
+          data-toggle="collapse" class="navbar-toggle">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="../Default.aspx" class="navbar-brand">Navbar In Master Page</a>
+      </div>
+      <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="NavBarInMasterPage.aspx">Home</a>
+          </li>
+          <li>
+            <a href="NavBarInMasterPageDashboard.aspx">Dashboard</a>
+          </li>
+          <li>
+            <a href="NavBarInMasterPageMaint.aspx">Maintenance</a>
+          </li>
+          <li>
+            <a href="NavBarInMasterPageSettings.aspx">Settings</a>
+          </li>
+          <li>
+            <a href="NavBarInMasterPageLookup.aspx">Lookup</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <asp:ContentPlaceHolder ID="MainContent" runat="server">
+  </asp:ContentPlaceHolder>
+  <asp:ContentPlaceHolder ID="EndOfPageContent" runat="server">
+  </asp:ContentPlaceHolder>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CanadianProvinces>
+	<Province>
+		<Name>Newfoundland and Labrador</Name>
+		<Capital>St. John's</Capital>
+		<PostalAbbr>NL</PostalAbbr>
+	</Province>
+	<Province>
+		<Name>Nova Scotia</Name>
+		<Capital>Halifax</Capital>
+		<PostalAbbr>NS</PostalAbbr>
+	</Province>
+	<Province>
+		<Name>Prince Edward Island</Name>
+		<Capital>Charlottetown</Capital>
+		<PostalAbbr>PE</PostalAbbr>
+	</Province>
+	<Province>
+		<Name>New Brunswick</Name>
+		<Capital>Fredericton</Capital>
+		<PostalAbbr>NB</PostalAbbr>
+	</Province>
+	<Province>
+		<Name>Quebec</Name>
+		<Capital>Quebec City</Capital>
+		<PostalAbbr>QC</PostalAbbr>
+	</Province>
+	<Province>
+		<Name>Ontario</Name>
+		<Capital>Toronto</Capital>
+		<PostalAbbr>ON</PostalAbbr>
+	</Province>
+	<Province>
+		<Name>Manitoba</Name>
+		<Capital>Winnipeg</Capital>
+		<PostalAbbr>MB</PostalAbbr>
+	</Province>
+	<Province>
+		<Name>Saskatchewan</Name>
+		<Capital>Regina</Capital>
+		<PostalAbbr>SK</PostalAbbr>
+	</Province>
+	<Province>
+		<Name>Alberta</Name>
+		<Capital>Edmonton</Capital>
+		<PostalAbbr>AB</PostalAbbr>
+	</Province>
+	<Province>
+		<Name>British Columbia</Name>
+		<Capital>Victoria</Capital>
+		<PostalAbbr>BC</PostalAbbr>
+	</Province>
+</CanadianProvinces>

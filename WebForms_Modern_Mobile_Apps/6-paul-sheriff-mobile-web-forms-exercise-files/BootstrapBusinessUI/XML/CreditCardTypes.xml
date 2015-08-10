@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<CreditCardTypes>
+	<CardType>
+		<Name>Visa</Name>
+    <Value>Visa</Value>
+    <SecurityCodeLength>3</SecurityCodeLength>
+  </CardType>
+	<CardType>
+		<Name>Master Card</Name>
+    <Value>MasterCard</Value>
+    <SecurityCodeLength>3</SecurityCodeLength>
+  </CardType>
+	<CardType>
+		<Name>American Express</Name>
+    <Value>AMEX</Value>
+    <SecurityCodeLength>4</SecurityCodeLength>
+  </CardType>
+	<CardType>
+		<Name>Discover</Name>
+    <Value>Discover</Value>
+    <SecurityCodeLength>3</SecurityCodeLength>
+  </CardType>
+</CreditCardTypes>

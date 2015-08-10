@@ -1,0 +1,5 @@
+J:\Web_Assets\WebForms_Modern_Mobile_Apps\6-paul-sheriff-mobile-web-forms-exercise-files\SamplesData\bin\Debug\SamplesData.dll
+J:\Web_Assets\WebForms_Modern_Mobile_Apps\6-paul-sheriff-mobile-web-forms-exercise-files\SamplesData\bin\Debug\SamplesData.pdb
+J:\Web_Assets\WebForms_Modern_Mobile_Apps\6-paul-sheriff-mobile-web-forms-exercise-files\SamplesData\obj\Debug\SamplesData.csprojResolveAssemblyReference.cache
+J:\Web_Assets\WebForms_Modern_Mobile_Apps\6-paul-sheriff-mobile-web-forms-exercise-files\SamplesData\obj\Debug\SamplesData.dll
+J:\Web_Assets\WebForms_Modern_Mobile_Apps\6-paul-sheriff-mobile-web-forms-exercise-files\SamplesData\obj\Debug\SamplesData.pdb

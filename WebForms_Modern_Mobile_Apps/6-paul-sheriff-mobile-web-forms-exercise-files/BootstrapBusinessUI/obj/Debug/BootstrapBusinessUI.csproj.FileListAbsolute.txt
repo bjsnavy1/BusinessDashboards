@@ -1,0 +1,7 @@
+J:\Web_Assets\WebForms_Modern_Mobile_Apps\6-paul-sheriff-mobile-web-forms-exercise-files\BootstrapBusinessUI\bin\BootstrapBusinessUI.dll
+J:\Web_Assets\WebForms_Modern_Mobile_Apps\6-paul-sheriff-mobile-web-forms-exercise-files\BootstrapBusinessUI\bin\BootstrapBusinessUI.pdb
+J:\Web_Assets\WebForms_Modern_Mobile_Apps\6-paul-sheriff-mobile-web-forms-exercise-files\BootstrapBusinessUI\bin\SamplesData.dll
+J:\Web_Assets\WebForms_Modern_Mobile_Apps\6-paul-sheriff-mobile-web-forms-exercise-files\BootstrapBusinessUI\bin\SamplesData.pdb
+J:\Web_Assets\WebForms_Modern_Mobile_Apps\6-paul-sheriff-mobile-web-forms-exercise-files\BootstrapBusinessUI\obj\Debug\BootstrapBusinessUI.csprojResolveAssemblyReference.cache
+J:\Web_Assets\WebForms_Modern_Mobile_Apps\6-paul-sheriff-mobile-web-forms-exercise-files\BootstrapBusinessUI\obj\Debug\BootstrapBusinessUI.dll
+J:\Web_Assets\WebForms_Modern_Mobile_Apps\6-paul-sheriff-mobile-web-forms-exercise-files\BootstrapBusinessUI\obj\Debug\BootstrapBusinessUI.pdb

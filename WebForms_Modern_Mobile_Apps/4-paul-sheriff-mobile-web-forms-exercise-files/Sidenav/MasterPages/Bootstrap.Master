@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Bootstrap.Master.cs"
+  Inherits="BootstrapNavigation.MasterPages.Bootstrap" %>
+
+<!-- Be sure to use HTML 5 document type -->
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <title>Navigation Samples</title>
+
+  <!-- Use Unicode character encoding -->
+  <meta charset="utf-8">
+  <!-- Tell IE to display content in highest HTML 5 mode available -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Tell mobile browsers to use the device width when rendering -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="../css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css">
+  <!-- Your Custom Styles -->
+  <link href="../css/Styles.css" media="all" rel="stylesheet" type="text/css">
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="../js/jquery-1.11.0.min.js"></script>
+  <!-- Normal Bootstrap plugins -->
+  <script src="../js/bootstrap.min.js"></script>
+
+  <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+  </asp:ContentPlaceHolder>
+</head>
+<body>
+  <asp:ContentPlaceHolder ID="MainContent" runat="server">
+  </asp:ContentPlaceHolder>
+  <asp:ContentPlaceHolder ID="EndOfPageContent" runat="server">
+  </asp:ContentPlaceHolder>
+</body>
+</html>
